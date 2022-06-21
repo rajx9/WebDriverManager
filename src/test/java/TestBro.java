@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestBrowser {
+public class TestBro {
 	public static String Browser="edge"; //Excel sheet /config.properties 
 	public static WebDriver driver;
 	
