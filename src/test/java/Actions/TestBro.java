@@ -1,5 +1,7 @@
+package Actions;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -27,7 +29,7 @@ public class TestBro {
 		}
 		
 		driver.get("https://www.google.com");
-		driver.close();
+		driver.findElement(By.id("wrongid")).click();
 
 	}
 
